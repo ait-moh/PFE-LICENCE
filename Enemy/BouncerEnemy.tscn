@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Enemy/SlowShooter.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Enemy/BouncerEnemy.gd" type="Script" id=2]
+
+[node name="BouncerEnemy" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+verticalSpeed = 10.0
+fireRate = 1.0
